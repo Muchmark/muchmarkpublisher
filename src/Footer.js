@@ -3,11 +3,11 @@ import image from './Images/Muchmarklogo.png'
 
 function Footer() {
     return (
-        <div className='Footer'>
+        <div className='Footer bg-gray-300 text-white text-sm'>
             <footer className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-                        <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                        <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 text-lg">
                         <img src={image} alt="" className=" h-16 text-white p-2" />
 
                            
@@ -18,7 +18,7 @@ function Footer() {
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
+                            <nav className="list-none mb-10 text-lg">
                                 <li>
                                     <a className="text-gray-600 hover:text-gray-800">First Link</a>
                                 </li>
@@ -35,7 +35,7 @@ function Footer() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
+                            <nav className="list-none mb-10 text-lg">
                                 <li>
                                     <a className="text-gray-600 hover:text-gray-800">First Link</a>
                                 </li>
@@ -52,7 +52,7 @@ function Footer() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
+                            <nav className="list-none mb-10 text-lg">
                                 <li>
                                     <a className="text-gray-600 hover:text-gray-800">First Link</a>
                                 </li>
@@ -69,7 +69,7 @@ function Footer() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
+                            <nav className="list-none mb-10 text-lg">
                                 <li>
                                     <a className="text-gray-600 hover:text-gray-800">First Link</a>
                                 </li>

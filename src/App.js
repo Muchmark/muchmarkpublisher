@@ -26,10 +26,10 @@ function App() {
         <Nav />
         <Routes>
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Home />}>
+          <Route exact path="blogs" element={<Home />}>
             {/* blogs nested route */}
-            <Route path="software/:category/:sub" element={<Software />} />
-            <Route path="marketing/:category/:sub" element={<Marketing />} />
+            <Route path="software/:category" element={<Software />} />
+            <Route path="marketing/:category" element={<Marketing />} />
 
             <Route path="social/:category/:sub" element={<Social />} />
             <Route path="trends/:category/:sub" element={<Trends />} />

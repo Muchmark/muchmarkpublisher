@@ -11,7 +11,7 @@ function Nav() {
                         <img src={image} alt="" className="text-white p-2" style={{ height: "100px", width: "180px" }} />
 
                     </a>
-                    <nav className="flex flex-wrap md:ml-auto md:mr-auto text-base justify-between sm:float-right sm:ml-12">
+                    <nav className="flex flex-wrap md:ml-auto md:mr-auto text-base justify-between sm:float-right sm:ml-12 sm:text-lg">
 
                         <Link to="/" className="mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8 rounded-sm">Home</Link>
                         <Link to="/about" className="mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8 rounded-sm">about</Link>
