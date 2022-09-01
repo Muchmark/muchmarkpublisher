@@ -1,5 +1,5 @@
 import './App.css';
-
+import More from './Components/SecondComp/viewMore';
 import Footer from './Footer';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
@@ -21,7 +21,7 @@ import Brand from './Components/SecondComp/Branding';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App p-2">
       <BrowserRouter>
         <Nav />
         <Routes>
@@ -36,8 +36,10 @@ function App() {
             <Route path="content/:category/:sub" element={<Content />} />
             <Route path="brand/:category/:sub" element={<Brand />} />
             <Route path="demand/:category/:sub" element={<Demand />} />
+
             {/* blogs nested route end*/}
           </Route>
+          <Route path="/more" element={<More />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
           <Route path="/contact" element={<Contact />} />

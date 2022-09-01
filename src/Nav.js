@@ -6,17 +6,17 @@ function Nav() {
     return (
         <div className="Nav">
             <header className="text-gray-600 body-font">
-                <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center sm:gap-48">
+                <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center sm:gap-48">
                     <a href="##" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                         <img src={image} alt="" className="text-white p-2" style={{ height: "100px", width: "180px" }} />
 
                     </a>
                     <nav className="flex flex-wrap md:ml-auto md:mr-auto text-base justify-between sm:float-right sm:ml-12 sm:text-lg">
 
-                        <Link to="/" className="mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8 rounded-sm">Home</Link>
-                        <Link to="/about" className="mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8 rounded-sm">about</Link>
-                        <Link to="/services" className="mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8   rounded-sm">services</Link>
-                        <Link to="/contact" className="mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8   rounded-sm">Contact us</Link>
+                        <Link to="/" className="mr-3 sm:mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8 rounded-sm">Home</Link>
+                        <Link to="/about" className="mr-3 sm:mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8 rounded-sm">about</Link>
+                        <Link to="/services" className="mr-3 sm:mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8   rounded-sm">services</Link>
+                        <Link to="/contact" className="mr-3 sm:mr-5 hover:text-gray-900 px-1 sm:border-none border-2 border-blue-500 sm:mx-8   rounded-sm">Contact us</Link>
 
 
 

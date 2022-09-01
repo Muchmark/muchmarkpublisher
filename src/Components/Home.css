@@ -1,46 +1,50 @@
 .maindropdown {
-    height: 100px;
-    position: relative;
-  
-  
-  }
-  .maindropdown ul {
-    
-  }
-  .maindropdown ul li {
-    float: left;
-  
-    background-color: black;
-    color: white;
-   
-    list-style-type: none;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
+  height: 100px;
+  position: relative;
 
-  }
-  .maindropdown ul li ul {
-    display: none;
-  }
-  .maindropdown ul li:hover > ul {
-    display: flex;
-    flex-direction: column;
-    transition-delay:1s;
-    transition-duration: 5s;
-    transition-delay: 2s;
-  }
-  .maindropdown ul li:hover {
-    background-color: #32cd32;
-  }
-  .maindropdown ul {
-    position: absolute;
-    z-index: 9;
-  }
-  /* .maindropdown ul li ul li {
+
+}
+
+.maindropdown ul {}
+
+.maindropdown ul li {
+  float: left;
+
+  background-color: #721db3;
+  color: white;
+
+  list-style-type: none;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+
+}
+
+.maindropdown ul li ul {
+  display: none;
+}
+
+.maindropdown ul li:hover>ul {
+  display: flex;
+  flex-direction: column;
+  transition-delay: 1s;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+
+.maindropdown ul li:hover {
+  background-color: #AC3BFF;
+}
+
+.maindropdown ul {
+  position: absolute;
+  z-index: 9;
+}
+
+/* .maindropdown ul li ul li {
     position: relative;
   
   }
   .maindropdown ul li ul li il {
     z-index: 9;
   } */
-  
