@@ -40,7 +40,7 @@ function App() {
 
             {/* blogs nested route end*/}
           </Route>
-          
+
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
           <Route path="/contact" element={<Contact />} />

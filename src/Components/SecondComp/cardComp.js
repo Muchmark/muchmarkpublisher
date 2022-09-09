@@ -28,7 +28,7 @@ export default function card({
             </div>
           </a>
           <a href="!#">
-            <div className="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+            <div className="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white text-center h-12 w-18 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
               <span className="font-thin text-xs">{date}</span>
 
             </div>
@@ -49,7 +49,18 @@ export default function card({
           href="#"
           className="py-1 text-sm font-regular text-gray-900 mr-1 flex flex-row items-center"
         >
-          <Link to="/blogs/more"><span className="ml-1 bg-indigo-600 px-4 py-2 text-white text-sm hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">learn more..</span></Link>
+          <Link to="/blogs/more" state={{
+            id:id,
+            category:category,
+            sub:sub,
+            date:date,
+            company:company,
+            title:title,
+            short:short,
+            long:long,
+            likes:likes,
+            url:url
+          }}><span className="ml-1 bg-indigo-600 px-4 py-2 text-white text-sm hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">learn more..</span></Link>
 
 
         </span>

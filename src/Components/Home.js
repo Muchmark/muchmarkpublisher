@@ -50,32 +50,32 @@ function Home() {
                         <li className="w-full sm:1/7 border-2 border-white">
                             Trends
                             <ul className="w-full sm:w-48">
-                                <li><Link to="/blogs/marketing/Trends&Trends">Trends</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Hashtags">Hashtags</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Marketing">Marketing Ai</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Industry">Industry</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Analysis">Analysis</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Paid">Paid content</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&User">User Generated</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Viral">Viral</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&E-marketing">E-marketing</Link></li>
-                                <li><Link to="/blogs/marketing/Trends&Starts">Starts</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Trends">Trends</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Hashtags">Hashtags</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Marketing">Marketing Ai</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Industry">Industry</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Analysis">Analysis</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Paid">Paid content</Link></li>
+                                <li><Link to="/blogs/trends/Trends&User">User Generated</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Viral">Viral</Link></li>
+                                <li><Link to="/blogs/trends/Trends&E-marketing">E-marketing</Link></li>
+                                <li><Link to="/blogs/trends/Trends&Starts">Starts</Link></li>
                             </ul>
                         </li>
                         <li className="w-full sm:1/7 border-2 border-white">
                             social media
                             <ul className="w-full sm:w-48">
 
-                                <li><Link to="/blog/social/socialmedia&socialmedia">Trends</Link>Social media</li>
-                                <li><Link to="/blog/social/socialmedia&Media">Media</Link></li>
-                                <li><Link to="/blog/social/socialmedia&Social">Social</Link></li>
-                                <li><Link to="/blog/social/socialmedia&Hashtag">Hashtag</Link></li>
-                                <li><Link to="/blog/social/socialmedia&network">Social network</Link></li>
-                                <li><Link to="/blog/social/socialmedia&paid">paid content</Link></li>
-                                <li><Link to="/blog/social/socialmedia&generated">user generated</Link></li>
-                                <li><Link to="/blog/social/socialmedia&Network">Network</Link></li>
-                                <li><Link to="/blog/social/socialmedia&promotion">promotion</Link></li>
-                                <li><Link to="/blog/social/socialmedia&viral">viral</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&socialmedia">Social media</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&Media">Media</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&Social">Social</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&Hashtag">Hashtag</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&network">Social network</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&paid">paid content</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&generated">user generated</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&Network">Network</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&promotion">promotion</Link></li>
+                                <li><Link to="/blogs/social/socialmedia&viral">viral</Link></li>
                             </ul>
                         </li>
                         <li className=" w-full sm:1/7 border-2 border-white">
