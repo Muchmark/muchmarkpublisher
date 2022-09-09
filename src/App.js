@@ -31,15 +31,16 @@ function App() {
             <Route path="software/:category" element={<Software />} />
             <Route path="marketing/:category" element={<Marketing />} />
 
-            <Route path="social/:category/:sub" element={<Social />} />
-            <Route path="trends/:category/:sub" element={<Trends />} />
-            <Route path="content/:category/:sub" element={<Content />} />
-            <Route path="brand/:category/:sub" element={<Brand />} />
-            <Route path="demand/:category/:sub" element={<Demand />} />
+            <Route path="social/:category" element={<Social />} />
+            <Route path="trends/:category" element={<Trends />} />
+            <Route path="content/:category" element={<Content />} />
+            <Route path="brand/:category" element={<Brand />} />
+            <Route path="demand/:category" element={<Demand />} />
+            <Route path="more" element={<More />} />
 
             {/* blogs nested route end*/}
           </Route>
-          <Route path="/more" element={<More />} />
+          
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
           <Route path="/contact" element={<Contact />} />

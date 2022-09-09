@@ -27,66 +27,66 @@ function Home() {
 
             )}
             {
-                display ? (<nav className="maindropdown transition ease-in-out delay-150 mx-5">
+                display ? (<nav className="maindropdown transition ease-in-out delay-150">
                     <ul className="flex flex-col sm:flex-row border-2 border-green-500 items-center content-center justify-center w-full">
-                        <li className="w-full sm:1/7 text-md border-2 border-black">
+                        <li className="w-full sm:1/7 text-md border-2 border-white">
                             software
 
                             <ul className="w-full sm:w-48 sm:left-2">
                                 <li><Link to="/blogs/software/software&software">software</Link></li>
-                                <li><Link to="/blogs/software/software&CRM">CRM</Link></li>
+                                <li><Link to="/blogs/software/software&crm">CRM</Link></li>
                                 <li><Link to="/blogs/software/software&marketingautomationservice">marketing automation service</Link></li>
                                 <li><Link to="/blogs/software/software&marketingautomation">marketing automation</Link></li>
                                 <li><Link to="/blogs/software/software&automation">automation</Link></li>
-                                <li><Link to="/blogs/software/software&Vendor">Vendor</Link></li>
+                                <li><Link to="/blogs/software/software&vendor">Vendor</Link></li>
                                 <li><Link to="/blogs/software/software&autoresponder">autoresponder</Link></li>
-                                <li><Link to="/blogs/software/software&Effeciency">Effeciency</Link></li>
-                                <li><Link to="/blogs/software/software&Startup">Startup</Link></li>
-                                <li><Link to="/blogs/software/software&Smallbuisness">Small buisness</Link></li>
-                                
-                                
+                                <li><Link to="/blogs/software/software&effeciency">Effeciency</Link></li>
+                                <li><Link to="/blogs/software/software&startup">Startup</Link></li>
+                                <li><Link to="/blogs/software/software&smallbuisness">Small buisness</Link></li>
+
+
                             </ul>
                         </li>
-                        <li className="w-full sm:1/7 border-2 border-black">
+                        <li className="w-full sm:1/7 border-2 border-white">
                             Trends
                             <ul className="w-full sm:w-48">
-                                <li>Trends</li>
-                                <li>Hashtags</li>
-                                <li>Marketing Ai</li>
-                                <li>Industry</li>
-                                <li>Analysis</li>
-                                <li>Paid content</li>
-                                <li>User Generated</li>
-                                <li>Viral</li>
-                                <li>E-marketing</li>
-                                <li>Starts</li>
+                                <li><Link to="/blogs/marketing/Trends&Trends">Trends</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Hashtags">Hashtags</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Marketing">Marketing Ai</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Industry">Industry</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Analysis">Analysis</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Paid">Paid content</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&User">User Generated</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Viral">Viral</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&E-marketing">E-marketing</Link></li>
+                                <li><Link to="/blogs/marketing/Trends&Starts">Starts</Link></li>
                             </ul>
                         </li>
-                        <li className="w-full sm:1/7 border-2 border-black">
-                            <Link to="/blogs/social">  social media </Link>
+                        <li className="w-full sm:1/7 border-2 border-white">
+                            social media
                             <ul className="w-full sm:w-48">
 
-                                <li>Sicial media</li>
-                                <li>Media</li>
-                                <li>Social</li>
-                                <li>Hashtag</li>
-                                <li>Social network</li>
-                                <li>paid content</li>
-                                <li>user generated</li>
-                                <li>Network</li>
-                                <li>promotion</li>
-                                <li>viral</li>
+                                <li><Link to="/blog/social/socialmedia&socialmedia">Trends</Link>Social media</li>
+                                <li><Link to="/blog/social/socialmedia&Media">Media</Link></li>
+                                <li><Link to="/blog/social/socialmedia&Social">Social</Link></li>
+                                <li><Link to="/blog/social/socialmedia&Hashtag">Hashtag</Link></li>
+                                <li><Link to="/blog/social/socialmedia&network">Social network</Link></li>
+                                <li><Link to="/blog/social/socialmedia&paid">paid content</Link></li>
+                                <li><Link to="/blog/social/socialmedia&generated">user generated</Link></li>
+                                <li><Link to="/blog/social/socialmedia&Network">Network</Link></li>
+                                <li><Link to="/blog/social/socialmedia&promotion">promotion</Link></li>
+                                <li><Link to="/blog/social/socialmedia&viral">viral</Link></li>
                             </ul>
                         </li>
-                        <li className=" w-full sm:1/7 border-2 border-black">
+                        <li className=" w-full sm:1/7 border-2 border-white">
 
-                            <Link to="/blogs/demand">   Demand generation </Link>
+                            Demand generation
                             <ul className="w-full sm:w-48">
-                                <li>demand generation</li>
-                                <li>demand</li>
-                                <li>lead managemant</li>
-                                <li>MQL</li>
-                                <li className="text-sm">account based marketingliul</li>
+                                <li><Link to="/blog/social/Demandgeneration&demandgeneration">demand generation</Link></li>
+                                <li><Link to="/blog/social/Demandgeneration&demand">demand</Link></li>
+                                <li><Link to="/blog/social/Demandgeneration&leadmanagemant">lead managemant</Link></li>
+                                <li><Link to="/blog/social/Demandgeneration&MQL">MQL</Link></li>
+                                <li className="text-sm"><Link to="/blog/social/Demandgeneration&account">account based marketingliu</Link>l</li>
                                 <li>rresource management</li>
                                 <li className="text-sm">marketing quilified leadliul</li>
                                 <li className="text-sm">saled quilified opportunity</li>
@@ -94,7 +94,7 @@ function Home() {
                                 <li>SQO</li>
                             </ul>
                         </li>
-                        <li className=" w-full sm:1/7 border-2 border-black">
+                        <li className=" w-full sm:1/7 border-2 border-white">
                             <Link to="/blogs/marketing"> Marketing automation  </Link>
                             <ul className="w-full sm:w-48">
                                 <li>Marketing automation</li>
@@ -109,7 +109,7 @@ function Home() {
                                 <li>Auto responder</li>
                             </ul>
                         </li>
-                        <li className=" w-full sm:1/7 border-2 border-black">
+                        <li className=" w-full sm:1/7 border-2 border-white">
                             <Link to="/blogs/content">Content markeing</Link>
                             <ul className="w-full sm:w-48">
                                 <li>content marketing</li>
@@ -124,7 +124,7 @@ function Home() {
                                 <li>keyword</li>
                             </ul>
                         </li>
-                        <li className="w-full sm:1/7 border-2 border-black">
+                        <li className="w-full sm:1/7 border-2 border-white">
                             <Link to="/blogs/brand">branding</Link>
                             <ul className="w-full sm:w-48">
                                 <li>content marketing</li>
@@ -138,7 +138,7 @@ function Home() {
                                 <li>audience</li>
                                 <li>keyword</li>
                             </ul></li>
-                        <li className="border-2 w-full sm:1/7 border-black">
+                        <li className="border-2 w-full sm:1/7 border-white">
                             resources
                             <ul className="w-full sm:w-48 sm:right-12">
                                 <li className="">

@@ -3,87 +3,55 @@ import image from './Images/Muchmarklogo.png'
 
 function Footer() {
     return (
-        <div className='Footer bg-gray-300 text-white text-sm'>
+        <div className='Footer bg-gray-300 text-white text-sm sm:mx-auto'>
             <footer className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-                    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left  p-4">
                         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 text-lg">
-                        <img src={image} alt="" className=" h-16 text-white p-2" />
+                            <img src={image} alt="" className=" h-1/2 text-white p-2" />
 
-                           
+
                         </a>
                         <a href="https://muchmark.in/#"> <p className="mt-2 text-sm text-gray-500">info@muchmark.in</p></a>
-                       
+
                     </div>
-                    <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center sm:justify-center">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3 font-bold">Services</h2>
                             <nav className="list-none mb-10 text-lg">
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                    <a href="https://www.muchmark.in/view_Services_IT" className="text-gray-600 hover:text-gray-800">IT Services</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    <a href="https://www.muchmark.in/view_Services_MS" className="text-gray-600 hover:text-gray-800">Marketing and sales</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    <a href="https://www.muchmark.in/view_Services_FS" className="text-gray-600 hover:text-gray-800">Free Services</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    <a href="https://www.muchmark.in/view_Services_P" className="text-gray-600 hover:text-gray-800">Publisher</a>
                                 </li>
                             </nav>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3 font-bold">links</h2>
                             <nav className="list-none mb-10 text-lg">
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                    <a href="https://www.muchmark.in/much_career" className="text-gray-600 hover:text-gray-800">Career</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    <a href="https://www.muchmark.in/view_privacy" className="text-gray-600 hover:text-gray-800">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    <a href="https://learningprogram.muchmark.in/" className="text-gray-600 hover:text-gray-800">Learning Program</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    <a href="https://publisher.muchmark.in/" className="text-gray-600 hover:text-gray-800">Publisher</a>
                                 </li>
                             </nav>
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10 text-lg">
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10 text-lg">
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
+
+
                     </div>
                 </div>
                 <div className="bg-gray-100">

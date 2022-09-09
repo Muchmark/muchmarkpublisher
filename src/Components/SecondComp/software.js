@@ -1,11 +1,18 @@
-import { css } from "@emotion/react";
-import React from "react";
+
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Card from "./cardComp";
-import Data from './Software/dataBase.json'
+
+
+import axios from "axios"
 const Software = () => {
+    const [res, setRes] = useState([])
     const { category } = useParams();
     const data = category.split('&')
+
+    useEffect(() => {
+        axios.get(`https://my-json-server.typicode.com/Muchmark/blogs/posts?category=software&sub=${data[1]}`).then((res) => { setRes(res.data) }).catch((err) => { console.log(err) })
+    }, [category])
 
     return (
         <div className="mx-5 sm:mx-24">
@@ -13,8 +20,8 @@ const Software = () => {
             <h1>{data[1]}</h1>
             <div className="cards grid grid-cols-1 sm:grid-cols-4 gap-2 sm:gap-5">
                 {
-                    Data.map((val, idx) => {
-                        if (val.sub === data[1]) {
+                    res.map((val, idx) => {
+                        if (res) {
                             return (
 
                                 <Card
@@ -23,10 +30,14 @@ const Software = () => {
                                     date={val.date}
                                     company={val.company}
                                     title={val.title}
-                                    content={val.content}
+                                    sub={val.sub}
                                     likes={val.likes}
                                     url={val.url}
-                                    />
+                                    short={val.short}
+                                    long={val.long}
+                                    key={idx}
+
+                                />
                             )
                         }
 
